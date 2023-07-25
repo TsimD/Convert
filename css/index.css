@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(42, 41, 41);
+    width: 1200px;
+    padding: 10px;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.title {
+    color: rgb(111, 111, 111);
+    margin-bottom: 30px;
+
+}
+
+.block {
+    margin: auto;
+    background-color: rgb(50, 50, 50);
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.select_1 {
+    display: flex;
+    background-color: rgb(26, 26, 26);
+    width: 350px;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20PX;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.param_1 {
+    width: 200px;
+    height: 35px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.input {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.select_2 {
+    display: flex;
+    background-color: rgb(26, 26, 26);
+    width: 350px;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20PX;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.param_2 {
+    width: 200px;
+    height: 35px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.res {
+    width: 350px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: rgb(106, 106, 106);
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.res:hover {
+    background-color: rgb(123, 123, 123);
+}
+
+.arg_1,
+.arg_2 {
+    color: rgb(111, 111, 111);
+}
+
+.arg_2 {
+    margin-top: 40px;
+}
+
+.result {
+    color: rgb(111, 111, 111);
+    font-size: 30px;
+}
+
+
+.leng {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.img_fl {
+    width: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.leng_blok {
+    padding-top: 5px;
+    width: 130px;
+    height: 35px;
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+
